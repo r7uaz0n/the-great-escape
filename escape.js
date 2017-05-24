@@ -10,7 +10,7 @@ function escape() {
   if (hasKey === false) {
     description.textContent = "The door is locked.";
   } else {
-    description.textContent = "As you open the door, you begin to contemplate the meaning of life.  You hear noises in the hallway.";
+    description.textContent = "Sparks fly from the shiny key as you unlock the door. As you open the door you slowly begin to contemplate the meaning life.  Suddenly, you hear noises in the hallway.";
   }
 }
 
