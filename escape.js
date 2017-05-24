@@ -10,7 +10,7 @@ function escape() {
   if (hasKey === false) {
     description.textContent = "The door is locked.";
   } else {
-    description.textContent = "Congratulations! You have escaped.";
+    description.textContent = "As you open the door, you begin to contemplate the meaning of life.  You hear noises in the hallway.";
   }
 }
 
@@ -18,9 +18,6 @@ optionOne.addEventListener ("click", grabKey);
 
 function grabKey () {
   hasKey = true;
-  
+
     description.textContent = "You swiftly grab the shiny key.";
 }
-
-
-
